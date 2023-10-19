@@ -23,17 +23,44 @@ nav {
     padding: 0 20px;
 }
 
-.logo {
-    font-size: 24px;
+.header-table {
+    width: 100%;
+    background-image: url('red.png');
+    background-size: cover;
+}
+
+.header-table .background-cell {
+    height: 200px;
+}
+
+.logo-cell {
+    text-align: left;
+    padding: 10px;
+    width: 30%;
+}
+
+.logo img {
+    max-width: 30px;
+}
+
+.logo p {
+    font-size: 18px;
     font-weight: bold;
+    margin: 0;
+}
+
+.menu-cell {
+    text-align: right;
+    padding: 10px;
+    width: 70%;
 }
 
 .menu {
     list-style: none;
-    display: flex;
 }
 
 .menu li {
+    display: inline;
     margin-right: 20px;
 }
 
