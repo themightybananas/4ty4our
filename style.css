@@ -23,20 +23,11 @@ nav {
     padding: 0 20px;
 }
 
-.header-table {
-    width: 100%;
-    background-image: url('red.png');
-    background-size: cover;
-}
-
-.header-table .background-cell {
-    height: 200px;
-}
-
-.logo-cell {
-    text-align: left;
-    padding: 10px;
-    width: 30%;
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
 }
 
 .logo img {
@@ -48,19 +39,12 @@ nav {
     font-weight: bold;
     margin: 0;
 }
-
-.menu-cell {
-    text-align: right;
-    padding: 10px;
-    width: 70%;
-}
-
 .menu {
     list-style: none;
+    display: flex;
 }
 
 .menu li {
-    display: inline;
     margin-right: 20px;
 }
 
